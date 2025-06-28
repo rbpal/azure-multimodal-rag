@@ -1,6 +1,6 @@
 # Azure Multi-Modal RAG System
 
-🚀 **Advanced multi-modal RAG system for Azure networking documentation**
+ **Advanced multi-modal RAG system for Azure networking documentation**
 
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -8,7 +8,7 @@
 
 An intelligent Azure networking knowledge assistant that processes PDFs with images, web pages, and technical documentation to provide accurate, context-aware responses. Built with local LLM inference for enterprise deployment.
 
-## 🎯 Key Features
+## Key Features
 
 - **Multi-Modal Processing**: Handles text, images, diagrams, and screenshots from technical documents
 - **Local LLM Inference**: Uses llama.cpp for cost-effective, privacy-focused deployment
