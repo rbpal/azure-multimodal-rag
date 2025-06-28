@@ -15,5 +15,4 @@ An intelligent Azure networking knowledge assistant that processes PDFs with ima
 - **Azure Networking Expertise**: Specialized knowledge of Azure networking concepts and architectures
 - **Intelligent Query Routing**: Automatically determines when visual context is needed
 - **Memory Optimized**: Designed for efficient resource usage on local hardware
-- **Production Ready**: Docker support, comprehensive APIs, and monitoring
 
