@@ -1,0 +1,58 @@
+2025-06-29 14:05:30,641 - INFO - Enhanced PDF Reader initialized
+2025-06-29 14:05:30,774 - INFO - Processing PDF: 01-study-guide-az-vnet.pdf
+2025-06-29 14:05:30,811 - INFO - Processed 10 pages...
+2025-06-29 14:05:35,794 - INFO - Enhanced PDF Reader initialized
+2025-06-29 14:05:35,795 - INFO - Processing PDF: 01-study-guide-az-vnet.pdf
+2025-06-29 14:05:35,934 - INFO - Processed 10 pages...
+2025-06-29 14:05:51,308 - INFO - Enhanced PDF Reader initialized
+2025-06-29 14:05:51,309 - INFO - Processing PDF: 01-study-guide-az-vnet.pdf
+2025-06-29 14:05:51,331 - INFO - Processed 10 pages...
+2025-06-29 14:05:51,347 - INFO - PDF processed successfully: 25,984 chars, 11 pages, 0.04s
+2025-06-29 14:15:29,816 - INFO - Enhanced PDF Reader initialized
+2025-06-29 14:15:29,845 - INFO - Processing PDF: 01-study-guide-az-vnet.pdf
+2025-06-29 14:15:29,874 - INFO - Processed 10 pages...
+2025-06-29 14:15:29,902 - INFO - PDF processed successfully: 25,984 chars, 11 pages, 0.06s
+2025-06-29 14:22:03,184 - INFO - Enhanced PDF Reader initialized
+2025-06-29 14:22:03,184 - INFO - Processing PDF: 01-study-guide-az-vnet.pdf
+2025-06-29 14:22:03,291 - INFO - Processed 10 pages...
+2025-06-29 14:22:03,312 - INFO - PDF processed successfully: 25,984 chars, 11 pages, 0.13s
+2025-06-29 14:24:53,522 - INFO - Enhanced PDF Reader initialized
+2025-06-29 14:24:53,523 - INFO - Processing PDF: 01-study-guide-az-vnet.pdf
+2025-06-29 14:24:53,545 - INFO - Processed 10 pages...
+2025-06-29 14:24:53,560 - INFO - PDF processed successfully: 25,984 chars, 11 pages, 0.04s
+2025-06-29 14:27:43,766 - INFO - Enhanced PDF Reader initialized
+2025-06-29 14:27:43,767 - INFO - Processing PDF: 01-study-guide-az-vnet.pdf
+2025-06-29 14:27:43,790 - INFO - Processed 10 pages...
+2025-06-29 14:27:43,820 - INFO - PDF processed successfully: 25,984 chars, 11 pages, 0.05s
+2025-06-29 14:27:43,945 - INFO - Document Quality Assessor initialized
+2025-06-29 14:27:43,977 - INFO - Assessing quality for: 01-study-guide-az-vnet.pdf
+2025-06-29 14:27:43,981 - INFO - Quality assessment complete: 0.83 -> premium
+2025-06-29 14:28:15,860 - INFO - Enhanced PDF Reader initialized
+2025-06-29 14:28:15,860 - INFO - Processing PDF: 01-study-guide-az-vnet.pdf
+2025-06-29 14:28:15,902 - INFO - Processed 10 pages...
+2025-06-29 14:28:15,972 - INFO - PDF processed successfully: 25,984 chars, 11 pages, 0.11s
+2025-06-29 14:28:16,041 - INFO - Document Quality Assessor initialized
+2025-06-29 14:28:16,048 - INFO - Assessing quality for: 01-study-guide-az-vnet.pdf
+2025-06-29 14:28:16,052 - INFO - Quality assessment complete: 0.83 -> premium
+2025-06-29 14:32:10,860 - INFO - Document Quality Assessor initialized
+2025-06-29 14:32:10,892 - INFO - Assessing quality for: 01-study-guide-az-vnet.pdf
+2025-06-29 14:32:10,896 - INFO - Quality assessment complete: 0.83 -> premium
+2025-06-29 14:32:10,898 - INFO - Enhanced PDF Reader initialized
+2025-06-29 14:32:10,899 - INFO - Document Quality Assessor initialized
+2025-06-29 14:32:10,900 - INFO - Batch Document Processor initialized
+2025-06-29 14:32:10,921 - INFO - Processing: 01-study-guide-az-vnet.pdf
+2025-06-29 14:32:10,922 - INFO - Processing PDF: 01-study-guide-az-vnet.pdf
+2025-06-29 14:32:10,943 - INFO - Processed 10 pages...
+2025-06-29 14:32:10,964 - INFO - PDF processed successfully: 25,984 chars, 11 pages, 0.04s
+2025-06-29 14:32:10,975 - INFO - Assessing quality for: 01-study-guide-az-vnet.pdf
+2025-06-29 14:32:10,978 - INFO - Quality assessment complete: 0.83 -> premium
+2025-06-29 14:32:10,978 - INFO - Processing: 02-study-guide-az-load-balancer.pdf
+2025-06-29 14:32:10,979 - INFO - Processing PDF: 02-study-guide-az-load-balancer.pdf
+2025-06-29 14:32:11,004 - INFO - Processed 10 pages...
+2025-06-29 14:32:11,034 - INFO - Processed 20 pages...
+2025-06-29 14:32:11,068 - INFO - PDF processed successfully: 55,835 chars, 25 pages, 0.09s
+2025-06-29 14:32:11,069 - INFO - Assessing quality for: 02-study-guide-az-load-balancer.pdf
+2025-06-29 14:32:11,074 - INFO - Quality assessment complete: 0.83 -> premium
+2025-06-29 14:32:11,214 - INFO - Document Quality Assessor initialized
+2025-06-29 14:32:11,215 - INFO - Assessing quality for: 01-study-guide-az-vnet.pdf
+2025-06-29 14:32:11,219 - INFO - Quality assessment complete: 0.83 -> premium
