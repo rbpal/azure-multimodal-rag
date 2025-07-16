@@ -9,9 +9,9 @@ Requirements:
     pip install PyMuPDF markdown python-markdown
 
 Usage:
-    python pdf_to_markdown.py input.pdf output.md
-    python pdf_to_markdown.py input.pdf  # outputs to input.md
-    python pdf_to_markdown.py --batch  # converts all PDFs in the default folder
+    python 01-01-utility-convert-pdf-to-markdown.py input.pdf output.md
+    python 01-01-utility-convert-pdf-to-markdown.py input.pdf  # outputs to input.md
+    python 01-01-utility-convert-pdf-to-markdown.py --batch  # converts all PDFs in the default folder
 """
 
 import fitz  # PyMuPDF
