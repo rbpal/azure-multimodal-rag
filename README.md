@@ -1,24 +1,35 @@
-
 # Azure RAG System with Ollama Integration
 
-**Advanced RAG system for Azure networking documentation with local LLM inference**
+**Self-hosted AI assistant for Azure networking with Retrieval-Augmented Generation (RAG)**
 
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![Ollama](https://img.shields.io/badge/LLM-Ollama-orange.svg)](https://ollama.ai/)
 
-An intelligent Azure networking knowledge assistant that processes technical documentation to provide accurate, context-aware responses. Built with Ollama + llama3.1:8b for completely local, privacy-focused deployment.
+A self-hosted AI assistant for Azure networking that leverages Retrieval-Augmented Generation (RAG) alongside a large language model (LLM) to deliver precise, context-aware guidance and troubleshooting. Built with Ollama + llama3.1:8b for completely local, privacy-focused deployment.
+
+## 🎯 Project Goal
+
+Build a self-hosted AI assistant for Azure networking that leverages Retrieval-Augmented Generation (RAG) alongside a large language model (LLM) to deliver precise, context-aware guidance and troubleshooting.
+
+**Key Objectives:**
+- **🏠 Self-Hosted**: Complete local deployment with no external API dependencies for inference
+- **🎯 Azure Networking Focus**: Specialized knowledge for VNets, Load Balancers, NSGs, and networking troubleshooting
+- **🔍 Context-Aware**: RAG ensures responses are grounded in your specific Azure documentation
+- **🛠️ Practical Guidance**: Provides actionable configuration steps and troubleshooting advice
+- **🔒 Privacy-First**: All processing happens locally on your hardware
 
 ## 🚀 Key Features
 
-- **🤖 Local LLM Inference**: Uses Ollama + llama3.1:8b for cost-effective, privacy-focused deployment
-- **📚 Document Processing**: Intelligent chunking and vectorization of Azure networking documentation
-- **🔍 Semantic Search**: Advanced vector similarity search using OpenAI embeddings
-- **🛡️ Azure Networking Expertise**: Specialized knowledge of VNets, Load Balancers, NSGs, Front Door, and more
-- **💻 Hardware Optimized**: Designed for efficient resource usage on MacBook Pro and similar hardware
+- **🏠 Self-Hosted AI Assistant**: Complete local deployment for Azure networking guidance and troubleshooting
+- **🤖 RAG + LLM Architecture**: Combines document retrieval with llama3.1:8b for precise, context-aware responses
+- **📚 Azure Documentation Processing**: Intelligent chunking and vectorization of Azure networking documentation
+- **🔍 Context-Aware Guidance**: Responses grounded in your specific Azure documentation and best practices
+- **🛠️ Troubleshooting Focus**: Provides actionable configuration steps and problem-solving advice
+- **💻 Hardware Optimized**: Designed for efficient resource usage on local hardware (MacBook Pro tested)
 - **🔬 Diagnostic Tools**: Built-in analysis to see exactly how RAG retrieval and generation works
-- **📊 Performance Monitoring**: Real-time response time tracking and system optimization
+- **🔒 Privacy-First**: No external API calls for inference - everything runs locally
 
 ## 🏗️ System Architecture
 
@@ -107,13 +118,31 @@ python3 04-01-rag-local-llm-ollama.py
 
 ### Interactive Chat
 ```bash
-💬 Your question: What is Azure Load Balancer backend pool?
+💬 Your question: How do I troubleshoot NSG connectivity issues?
 
-📋 Answer: An Azure Load Balancer backend pool is a collection of virtual machines 
-or instances that receive traffic distributed by the load balancer...
+📋 Answer: To troubleshoot NSG connectivity issues, follow these systematic steps:
+
+1. **Verify NSG Rules**: Check both inbound and outbound security rules...
+2. **Rule Priority**: Ensure your allow rules have lower priority numbers...
+3. **Effective Security Rules**: Use Azure portal to view effective rules...
 
 📚 Sources (3 documents):
-  1. [load-balancer] 02-study-guide-az-load-balancer.md
+  1. [azure-network-security-group] NSG troubleshooting guide
+  2. [azure-network-security-group] Rule evaluation process
+```
+
+### Troubleshooting Guidance
+```bash
+💬 Your question: Load balancer backend pool not receiving traffic
+
+📋 Answer: When backend pool instances aren't receiving traffic, check:
+
+**Health Probe Status:**
+- Verify health probe configuration matches your application port
+- Check probe interval and timeout settings...
+
+**Backend Pool Configuration:**
+- Ensure VMs are in the same virtual network as the load balancer...
 ```
 
 ### Diagnostic Mode
@@ -175,14 +204,38 @@ temperature = 0.1                # Response focus
 - `stats` - System performance information
 - `quit` - Exit the session
 
-## 📚 Knowledge Base
+## 📚 Knowledge Base & Troubleshooting Coverage
 
-Currently includes documentation for:
-- **Azure Virtual Networks (VNets)** - Peering, subnets, connectivity
-- **Azure Load Balancer** - Backend pools, health probes, configuration
-- **Network Security Groups (NSGs)** - Rules, priorities, best practices
-- **Azure Front Door** - WAF, health probes, routing methods
-- **Azure DDoS Protection** - Features and configuration
+Currently includes comprehensive documentation and troubleshooting guidance for:
+
+### **🌐 Azure Virtual Networks (VNets)**
+- Network peering configuration and troubleshooting
+- Subnet design and connectivity issues
+- Cross-region and cross-subscription connectivity
+- DNS resolution problems
+
+### **⚖️ Azure Load Balancer**
+- Backend pool configuration and health issues
+- Health probe troubleshooting
+- Traffic distribution problems
+- Standard vs Basic Load Balancer scenarios
+
+### **🛡️ Network Security Groups (NSGs)**
+- Rule priority and evaluation troubleshooting
+- Connectivity blocking issues
+- Effective security rules analysis
+- Service tag and application security group problems
+
+### **🚪 Azure Front Door**
+- WAF rule configuration and debugging
+- Health probe failures
+- Routing method issues
+- Origin connectivity problems
+
+### **🛡️ Azure DDoS Protection**
+- DDoS attack mitigation
+- Policy configuration
+- Monitoring and alerting setup
 
 ## 🔍 Diagnostic Capabilities
 
@@ -229,4 +282,4 @@ For questions and support:
 
 ---
 
-**Built for Azure professionals who need accurate, local, and private access to Azure networking knowledge.** 🎯
+**🎯 Your local Azure networking expert - delivering precise, context-aware guidance and troubleshooting without compromising privacy or requiring external dependencies.**
